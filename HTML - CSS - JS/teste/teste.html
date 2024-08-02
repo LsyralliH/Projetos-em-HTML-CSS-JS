@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .conteudo {
+            height: 200px; /* Altura do elemento */
+            overflow-y: auto; /* Adiciona a barra de rolagem vertical */
+            border: 1px solid #ccc; /* Apenas para visualização */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conteudo">
+    <section id="tela1">
+        <h1>LAÍS</h1>
+    </section>
+    <section id="tela2" style="display: none;">
+        <h1>HILLARY</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...dfgbd
+            sdçiouilkyjhtgrfedfghjklkjhgfd
+            dfjhdfmgjhgfdsdfghhgfdsasrt
+            hgasdfghjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+            jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+            jhgfdddddddddddddddddddddddddddddddddddddddddddddddd
+        </p>
+    </section>
+    <!-- Adicione mais seções conforme necessário -->
+</div>
+    <script>
+        // Exemplo de alternância entre telas usando JavaScript
+        const tela1 = document.getElementById('tela1');
+        const tela2 = document.getElementById('tela2');
+
+        // Função para mostrar a segunda tela
+        function mostrarTela2() {
+            tela1.style.display = 'none';
+            tela2.style.display = 'block';
+        }
+
+        // Chame essa função quando necessário (por exemplo, ao clicar em um botão)
+        // mostrarTela2();
+    </script>
+</body>
+</html>

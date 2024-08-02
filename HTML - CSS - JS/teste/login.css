@@ -1,0 +1,40 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #101820;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    border-radius: 15px;
+    color: white;
+}
+.text {
+    padding: 12px;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #101820;
+    border: 1px solid #FFC72C;
+    border-radius: 10px;
+    width: 130%;
+}
+.botao {
+   background-color: #FFC72C; 
+   padding: 12px;
+   border: none;
+   width: 132%;
+   border-radius: 10px;
+   color: white;
+   font-size: 15px;
+   cursor: pointer;
+   position: absolute;
+   left: 5px;
+   
+}
+.botao:hover {
+    background-color:#f3c340
+
+}
